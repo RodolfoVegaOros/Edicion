@@ -12,6 +12,8 @@
 		3DF1C454272B67B500C2E894 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DF1C452272B67B500C2E894 /* Main.storyboard */; };
 		3DF1C456272B67C500C2E894 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DF1C455272B67C500C2E894 /* Assets.xcassets */; };
 		3DF1C459272B67C500C2E894 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DF1C457272B67C500C2E894 /* LaunchScreen.storyboard */; };
+		3DF1C461272B689000C2E894 /* Contacto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF1C460272B689000C2E894 /* Contacto.swift */; };
+		3DF1C463272B6C3000C2E894 /* CeldaContactoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF1C462272B6C3000C2E894 /* CeldaContactoController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		3DF1C455272B67C500C2E894 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3DF1C458272B67C500C2E894 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3DF1C45A272B67C500C2E894 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DF1C460272B689000C2E894 /* Contacto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contacto.swift; sourceTree = "<group>"; };
+		3DF1C462272B6C3000C2E894 /* CeldaContactoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeldaContactoController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				3DF1C455272B67C500C2E894 /* Assets.xcassets */,
 				3DF1C457272B67C500C2E894 /* LaunchScreen.storyboard */,
 				3DF1C45A272B67C500C2E894 /* Info.plist */,
+				3DF1C460272B689000C2E894 /* Contacto.swift */,
+				3DF1C462272B6C3000C2E894 /* CeldaContactoController.swift */,
 			);
 			path = Edicion;
 			sourceTree = "<group>";
@@ -135,8 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DF1C463272B6C3000C2E894 /* CeldaContactoController.swift in Sources */,
 				3DF1C451272B67B500C2E894 /* ViewController.swift in Sources */,
 				3DF1C44F272B67B500C2E894 /* AppDelegate.swift in Sources */,
+				3DF1C461272B689000C2E894 /* Contacto.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
